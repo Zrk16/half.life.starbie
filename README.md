@@ -26,9 +26,9 @@ the weather comes from [Open-Meteo](https://open-meteo.com), which doesn't need 
 | 0.96" SSD1306 OLED | starbie's face |
 | MPU6050 | tilt + shake sensing |
 | DHT11 + 10k resistor | room temp and humidity |
-| 2x Cherry MX switches | the buttons |
+| 2x Cherry MX switches |  buttons |
 
-the board is a pixel star, about 96 x 92 mm, with the usb-c sticking out of the right arm so you can actually plug it in.
+the board is a  star, about 96 x 92 mm.
 
 ![Starbie back render](images/starbie-render-back.png)
 
@@ -39,31 +39,15 @@ the board is a pixel star, about 96 x 92 mm, with the usb-c sticking out of the 
 1. **schematic** in kicad. first time ever, made a lot of mistakes (wrong chip, using labels instead of power symbols for ground) but got it clean.
 2. **pixel star outline** and placed the parts inside the arms.
 3. **routing.** did everything on the front first, DRC found 2 broken connections, fixed them on the back layer.
-4. **ground pour + my name** on the silkscreen, then exported the gerbers.
-5. **simulated it in [Wokwi](https://wokwi.com)** before ordering anything, so if something breaks on the real board i know it's hardware, not code.
-
+4. **ground pour and text** on the silkscreen, then exported the gerbers.
+5. **simulated it in [Wokwi](https://wokwi.com)**
+6. 
 ![routed board](journal/09-routed-drc-clean.png)
 
 ![stock firmware running in wokwi](journal/13-wokwi-stock-firmware-running.png)
 
 the full story (with all the mistakes) is in [JOURNAL.md](JOURNAL.md).
 
-## flashing the firmware
-
-1. install the [Arduino IDE](https://www.arduino.cc/en/software)
-2. add the esp32 boards url in **File > Preferences**:
-   `https://espressif.github.io/arduino-esp32/package_esp32_index.json`
-3. **Tools > Board > Boards Manager**, install **esp32 by Espressif**, pick **XIAO_ESP32C3**
-4. install these libraries: Adafruit GFX, Adafruit SSD1306, Adafruit MPU6050, DHT sensor library (click install all for dependencies)
-5. open `firmware/StarbieCustom/StarbieCustom.ino`
-
-**before uploading to the real board** (the defaults are set for the simulator):
-
-- set `DHT_SENSOR_TYPE` to `DHT11`
-- set `ENABLE_BLE_REMOTE` to `1`
-- copy `secrets.example.h` to `secrets.h` and put your wifi in it (it's gitignored so your password never gets pushed)
-- **Tools > Partition Scheme > Huge APP**, because wifi + bluetooth together don't fit the default layout
-- change the weather location (it's set to Manila)
 
 ## files
 
