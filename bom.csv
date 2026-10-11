@@ -1,0 +1,9 @@
+Part,What it's for,Qty,Unit (USD),Total (USD),Vendor,Link
+Seeed XIAO ESP32-C3,"Brain: runs the code, Wi-Fi + Bluetooth (incl. shipping)",1,8.43,8.43,Lazada,https://www.lazada.com.ph/products/pdp-i5375931894-s32181071148.html
+0.96in SSD1306 OLED (I2C 4-pin),Starbie's face / screen,1,2.47,2.47,Lazada,https://www.lazada.com.ph/products/pdp-i15599506439-s133556516409.html
+GY-521 MPU6050 module,"Tilt to pick menu items, shake reaction",1,1.64,1.64,Lazada,https://www.lazada.com.ph/products/sdhi-high-precision-mpu6050-gy-521-6dof-sensor-module-3-axis-accelerometer-gyroscope-for-drone-flight-control-i15556133836-s133401270727.html
+DHT11 sensor (4-pin),Room temperature + humidity (incl. shipping),1,1.88,1.88,Lazada,https://www.lazada.com.ph/products/pdp-i4888079786-s28448123978.html
+Passives (10k resistor pack),Pull-up resistor for the DHT11 data line,1,1.12,1.12,Lazada,https://www.lazada.com.ph/products/pdp-i3185357725-s15905939989.html
+Starbie PCB (5 pcs; black; 1.6mm),The board itself (incl. shipping),1,12.11,12.11,JLCPCB,https://cart.jlcpcb.com/quote
+,,,,,,
+Total,,,,27.65,,
