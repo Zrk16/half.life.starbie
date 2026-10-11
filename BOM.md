@@ -19,7 +19,7 @@
 | [Passives (10k resistor pack)](https://www.lazada.com.ph/products/pdp-i3185357725-s15905939989.html) | pulls up the dht11 data lines | 1 | $1.12 | $1.12 | [Lazada](https://www.lazada.com.ph/products/pdp-i3185357725-s15905939989.html) |
 | [Starbie PCB (5 pcs; black; 1.6mm)](https://cart.jlcpcb.com/quote) | The board, the myth the legend itself | 1 | $12.11 | $12.11 | [JLCPCB](https://cart.jlcpcb.com/quote) |
 | **Parts subtotal** | — | — | — | **$27.65** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$27.65** | — |
+| **Tax & shipping** | — | — | — | **$27.65** | — |
+| **Total** | — | — | — | **$55.30** | — |
 
-$2.35 left of the tier's funding.
+**$25.30 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
