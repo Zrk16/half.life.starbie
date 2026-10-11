@@ -1,0 +1,12 @@
+# Wi-Fi password lives here, never commit it
+secrets.h
+
+# KiCad lock and backup files
+*.lck
+*-backups/
+fp-info-cache
+
+# Local-only files
+*.kicad_prl
+reel-brief.md
+.history/
